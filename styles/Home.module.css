@@ -1,0 +1,63 @@
+.randomButton {
+  color: black;
+  margin: 30px 100px 30px auto;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  cursor: pointer;
+}
+
+.authorButton {
+  max-width: 672px;
+  width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.authorButton:hover {
+  background-color: #333333;
+}
+
+.authorButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.authorCont {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.authorButton p {
+  margin: 0;
+}
+
+.authorButton:hover p {
+  color: white;
+}
+
+.author {
+  font-weight: 700;
+  font-size: 24px;
+  color: #4f4f4f;
+}
+
+
+.genre {
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
+}
+
+.arrow {
+  font-size: 49px;
+  color: white;
+  margin: 0;
+}
